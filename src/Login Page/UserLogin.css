@@ -1,0 +1,113 @@
+
+.imgContainer{
+    background-color: rgb(195, 125, 33);
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+}
+.bgimg {
+    width: 100%;
+    height: 100%;
+    /* z-index: -999; */
+    object-fit: cover;
+    
+}
+.overlay{
+    position: absolute;
+    background-color: #222831dd;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* .ss {
+    position: absolute;
+    color: aliceblue;
+    outline: 2px solid white;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'poppins';
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    
+}
+.head1{
+    position: absolute;
+    top: 50px;
+} */
+/* Above is for bg */
+
+.loginBox{
+    font-family: 'poppins';
+    background-color: white;
+    position: absolute;
+    align-self: center;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    /* box-shadow: -3px -3px 5px 0px rgba(12,11,11,0.48);
+    -webkit-box-shadow: -3px -3px 5px 0px rgba(12,11,11,0.48);
+    -moz-box-shadow: -3px -3px 5px 0px rgba(12,11,11,0.48); */
+
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.75);
+}
+.lbimg{margin: 0;
+    padding: 0;
+    background-color: rgb(166, 109, 23);
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.ldetails{margin: 0;
+    padding: 0;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.lbimg1{
+    height: 100%;
+    width: 100vh;
+}
+
+.lbtext{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 60
+    0;
+    text-shadow: -1px -1px 2px rgba(0,0,0,0.54);
+    
+
+}

@@ -1,0 +1,21 @@
+.Bentry{
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    color: aliceblue;
+    border-radius: 5%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Bentry:hover{
+    width: 260px;
+    height: 60px;
+}

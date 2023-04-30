@@ -1,0 +1,13 @@
+.holder{
+    background-color: rgba(0, 0, 0, 0.105);
+    width: 100%px;
+    color: white;
+    /* height(variable) */
+    height: 80px;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(7, 6, 6, 0.412);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}

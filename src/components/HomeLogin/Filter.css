@@ -1,0 +1,44 @@
+
+.imgContainer{
+    background-color: rgb(195, 125, 33);
+    height: 100vh;
+    overflow: hidden; 
+}
+.bgimg {
+    width: 100%;
+    height: 100%;
+    /* z-index: -999; */
+    object-fit: cover;
+    
+}
+.overlay{
+    position: absolute;
+    background-color: #222831dd;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ss {
+    position: absolute;
+    color: aliceblue;
+    outline: 2px solid white;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'poppins';
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    
+}
+
+.Gbut{
+    position: relative;
+    top: 120px;
+}

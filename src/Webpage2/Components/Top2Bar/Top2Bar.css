@@ -1,0 +1,22 @@
+.Top2Bar{
+    margin: 0 12%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.Category1{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.C1Text{
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
